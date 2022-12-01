@@ -40,5 +40,7 @@
 
     ];
 
-    foreach ($hotels as $hotel);
+    foreach ($hotels as $hotel){
+        echo $hotel['name'];
+    };
 ?>
