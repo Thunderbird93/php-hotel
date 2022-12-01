@@ -75,7 +75,7 @@
     <?php foreach ($hotels as $hotel){ ?>
     <tr>
       <th scope="row"> <?php echo $hotel['name']; ?> </th>
-      <td>Description</td>
+      <td><?php echo $hotel['description']?></td>
       <td>Parking</td>
       <td>Vote</td>
       <td>distance_to_center</td>
