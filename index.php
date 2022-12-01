@@ -72,6 +72,7 @@
     </tr>
   </thead>
   <tbody>
+    <?php foreach ($hotels as $hotel){ ?>
     <tr>
       <th scope="row"> Name </th>
       <td>Description</td>
@@ -79,6 +80,7 @@
       <td>Vote</td>
       <td>distance_to_center</td>
     </tr>
+    <?php } ?>
   </tbody>
 </table>
     </main>
