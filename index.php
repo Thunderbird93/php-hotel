@@ -39,12 +39,15 @@
         ],
 
     ];
+
+    $park_y = 'Disponibile';
+    $park_n = 'Non Disponibile';
+
 /*
     foreach ($hotels as $hotel){
         echo $hotel['name'];
         echo $hotel['description'];
         echo $hotel['parking'];
-        //Appare 1 ?
         echo $hotel['vote'];
         echo $hotel['distance_to_center'];
     };
@@ -77,7 +80,15 @@
     <tr>
       <th scope="row"> <?php echo $hotel['name']; ?> </th>
       <td><?php echo $hotel['description'];?></td>
-      <td><?php echo $hotel['parking'];?></td>
+<!--Parcheggio-->
+      <td> <?php 
+      if ($hotel['parking'] == 1){
+        echo $park_y;
+      } else {
+        echo $park_n;
+      }
+      ?></td>
+<!--/Parcheggio -->
       <td><?php echo $hotel['vote'];?></td>
       <td><?php echo $hotel['distance_to_center'];?></td>
     </tr>
