@@ -74,7 +74,7 @@
   <tbody>
     <?php foreach ($hotels as $hotel){ ?>
     <tr>
-      <th scope="row"> Name </th>
+      <th scope="row"> <?php echo $hotel['name']; ?> </th>
       <td>Description</td>
       <td>Parking</td>
       <td>Vote</td>
