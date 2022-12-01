@@ -78,7 +78,7 @@
       <td><?php echo $hotel['description'];?></td>
       <td><?php echo $hotel['parking'];?></td>
       <td><?php echo $hotel['vote'];?></td>
-      <td>distance_to_center</td>
+      <td><?php echo $hotel['distance_to_center'];?></td>
     </tr>
     <?php } ?>
   </tbody>
