@@ -40,4 +40,5 @@
 
     ];
 
+    foreach ($hotels as $hotel);
 ?>
