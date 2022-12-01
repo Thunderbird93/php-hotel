@@ -43,5 +43,7 @@
     foreach ($hotels as $hotel){
         echo $hotel['name'];
         echo $hotel['description'];
+        echo $hotel['parking'];
+        //Appare 1 ?
     };
 ?>
