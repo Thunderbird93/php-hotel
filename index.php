@@ -77,7 +77,7 @@
       <th scope="row"> <?php echo $hotel['name']; ?> </th>
       <td><?php echo $hotel['description'];?></td>
       <td><?php echo $hotel['parking'];?></td>
-      <td>Vote</td>
+      <td><?php echo $hotel['vote'];?></td>
       <td>distance_to_center</td>
     </tr>
     <?php } ?>
