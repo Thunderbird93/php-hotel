@@ -46,5 +46,6 @@
         echo $hotel['parking'];
         //Appare 1 ?
         echo $hotel['vote'];
+        echo $hotel['distance_to_center'];
     };
 ?>
